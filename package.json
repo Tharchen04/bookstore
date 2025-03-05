@@ -1,0 +1,32 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js", 
+    "dev": "nodemon app.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tharchen04/bookstore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tharchen04/bookstore/issues"
+  },
+  "homepage": "https://github.com/Tharchen04/bookstore#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
+
+
