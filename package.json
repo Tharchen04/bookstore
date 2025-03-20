@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js", 
+    "start": "node app.js",
     "dev": "nodemon app.js"
-    
   },
   "repository": {
     "type": "git",
@@ -20,13 +19,17 @@
   },
   "homepage": "https://github.com/Tharchen04/bookstore#readme",
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.14.1",
+    "pg-promise": "^11.13.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
   }
 }
-
-
